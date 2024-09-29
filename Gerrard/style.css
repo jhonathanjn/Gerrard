@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color:#C0C0C0 ;
+    background-color: black;
+}
+
+.html{
+    color: black;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0   auto;
+    padding: 0  2%;
+    display:    flex;
+    flex-wrap: wrap;
+}
+
+
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 20px   0;
+    border-bottom: 4px  solid   rgb(255, 0, 0);
+    animation: infinite;
+    
+}
+
+.logo{
+    color: rgb(255, 0, 0);
+}
+
+.logo   h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu   a{
+    color:white;
+    font-size:  15px;
+    text-decoration: none;
+    margin-right: 50;
+}
+
+.menu   a:hover{
+    color:#C0C0C0;
+}
+.menu   .btn-menu{
+    background-color: #ff0000;
+    display:inline-block;
+    padding: 8px 16px;
+    color:white;
+    border-radius: 40px;
+}
+
+.menu   .btn-menu:hover{
+    background-color: #B22222;
+    color:white;
+    transform: scale(1.1,1.1);
+    filter: grayscale(0);
+}
+
+.car{
+    max-width: 700px;
+    margin: 20   auto;
+    padding: 0  2%;
+    display:    flex;
+    flex-wrap: wrap;
+}
+.car iframe{
+    border-radius: 75px;
+}
+
+.roda-pe{
+    display:inline-block;
+    padding: 0  2%;
+    display:    flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(17, 16, 16);
+    margin: 10px;
+}
+
+.roda-pe h1{
+    margin: 25px;
+    margin-left: 250px;
+    font-size: 50px;
+    background-color: rgb(17, 16, 16);
+}
+
+.roda-pe p{
+    color:white;
+    text-align: center;
+    margin: 40px;
+    margin-left: 305px;
+    font-size: 20px;
+    background-color: rgb(17, 16, 16);
+}
+
+.roda-pe a{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(17, 16, 16);
+}
+
+
+.videos{
+    background-color: transparent;
+}
+
+.videos img{
+    display: inline-block;
+    width: 230px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.videos h2{
+    background-color: rgb(17, 16, 16);
+}
+
+.videos a:hover{
+    transform: scale(1.2,1.2);
+    filter: grayscale(0);
+    background-color: transparent;
+}
+
+.modelos{
+    text-align: center;
+    margin: 50px;
+}
+
+.marca h2{
+    display: inline-block;
+    margin-left: 100px;    
+}
+
+.sobre h1{
+    text-align: center;
+    margin: 100px;
+    font-size: 40px;
+}
+
+.modificados{
+    display:inline-block;
+    padding: 0  2%;
+    display:    flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.modificados a{
+    background-color: #131212;
+    text-align: center;
+    margin-left: 25px ;
+    border-radius: 40px;
+    margin: 10px;
+    max-width: 500px;
+}
+
+.modificados img{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    border-radius: 40px;
+}
+
+.modificados li{
+    background-color: transparent;
+    color :#C0C0C0;
+    max-width: 300px;
+    width: 190px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45px;
+}
+
+.modificados a:hover{
+    transform: scale(1.1,1.1);
+    filter: grayscale(0);
+}
